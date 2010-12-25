@@ -1,0 +1,14 @@
+PATH
+  remote: .
+  specs:
+    calc (1.0.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  calc!
