@@ -9,7 +9,7 @@ module Calc
     
     begin
       return eval( safe_expression )
-    rescue SyntaxError
+    rescue SyntaxError, NoMethodError
       # return expression verbatim so ActiveModel::Validations could take care of this
       return unsafe_expression
     end
